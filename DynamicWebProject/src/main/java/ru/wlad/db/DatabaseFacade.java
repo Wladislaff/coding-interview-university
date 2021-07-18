@@ -28,7 +28,7 @@ public class DatabaseFacade {
 				result.add(resultSet.getString("name"));
 			}
 		} catch (SQLException e) {
-			System.out.println("Connection failure!");
+			System.out.println("Connection failure");
 			e.printStackTrace();
 		}
 		return result; 
